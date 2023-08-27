@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>protfolio page</title>
+	<style>
+
+		
+
+		header{
+			background-color: green;
+				
+			display: flex;
+			justify-content:space-around;
+			flex-wrap: colum-w;
+			align-items: center;
+			colum-gap: 30px;
+			border: 20 solid;
+			font-size: 40px;
+
+
+		}
+
+		
+			ul{
+			display: flex;
+		}
+
+		li{
+			padding-left: 20px;
+			list-style: none;
+			color: goldenrod;
+		}
+
+		.content{
+			padding-left: 210px;
+			margin: 50px;
+			
+		}
+
+		.latest{
+			font-size: 40px;
+		}
+		.easy{
+		font-size: 12px;
+		padding: 50px;
+		}
+
+		.container{
+			display: flex;
+			justify-content: space-between	;
+			flex-wrap:wrap;
+			align-items: center	;
+			margin: 10px;
+			box-direction: 20px;
+			text-decoration: none;
+			flex-direction: column-reverse;
+			border: 50px;
+			
+		}
+
+		.card{
+			background: white;
+			width: 270px;
+		
+			margin: 5px;
+			border-radius: 15px;
+		}
+
+		.card-image{
+			height: 150px;
+			margin-bottom: 15px;
+			background-size: cover;
+			border-radius: 10px 10px;
+
+
+		}
+
+		.car-1{
+			background-image: url('./counter.jpg');
+		}
+
+		.car-2{
+             background-image: url('./html1.jpg');
+		}
+
+		.car-3{
+            background-image: url('./eugene.jpg');
+		}
+
+		.car-4{
+             background-image: url('./dom.jpg');
+		}
+
+		.car-5{
+            background-image: url('./layout.jpg');
+		}
+
+		.card h2 {
+			padding: 10;
+
+		}
+
+			.card p {
+			padding: 10;
+
+		}
+
+		.card a{
+			background-color: black;
+			color: green;
+			text-align: center;
+			margin: 20px 50px;
+
+
+		}
+
+			
+
+
+		}
+		
+		a{
+			text-decoration: none	;
+			font-size: 10px;
+		}
+
+		.card:hover{
+			background-color: gray;
+			color: 	white;
+			cursor: pointer;
+			transform: 	scale(1.03);
+			transform: 	all is ease;
+		}
+
+
+		
+           footer{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .footer1{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: flexd;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+	<ul>
+		<li><a href="./index.html"> Home</a></li>
+		<li><a href="./blog.html">Blog</a></li>
+		<li><a href="./protfolio.html">Protfolio</a></li>
+		<li><a href="./contact.html">Contact</a></li>
+
+
+	</ul>
+
+	<header>
+		
+		<h1>My Protfolio</h1>
+	
+		
+	</header>
+
+	<section>
+		<div class="content">
+		<h1 class=" latest">Latest Project</h1>
+		<p class="easy">	It doesn't get easy, but am getting better!</p>
+	</div>
+	</section>
+
+		<section class="container">	
+		<div class="card">
+			<div class="card-image car-1"></div>
+
+			<h2>Counter App</h2>
+			
+			<p>This counter app have only two button, negative and positive button. when click the negative button the number decrease to 0 and when click positive the number increase form 0 to counting number. </p>
+
+			<a href="https://eugeneboyah.github.io/counter-App/"> READ MORE</a>
+		</div>
+
+		<div class="card">
+			<div class="card-image car-2"></div>
+
+			<h2>Mastering HTML</h2>
+
+			<p>	This is a HTML web page. This page is made of only HTML elements and attributes. this web page contains images, headings paragraphs,links and lists and table.</p>
+
+		  <a href="https://kwagei.github.io/portfolio-v1-eugeneboyah/">READ MORE</a>
+
+		</div>
+
+
+		<div class="card">
+			<div class="card-image car-3"></div>
+
+			<h2>Protfolio </h2>
+
+			<p>	This Protfolio project is includes of Home page, contact page, Blog page and the protfolio page itself. each page has links that is linking to all the pages mention. and each of these pages explains different things</p>
+
+              <a href="https://eugeneboyah.github.io/protfolio-week0/home.html">READ MORE</a>
+		</div>
+
+		<div class="card">
+			<div class="card-image car-4"></div>
+
+			<h2>DOM Manipulation </h2>
+
+			<p>	 A Javascript Assigmnent that give the summary about DOM which means (Document Object Model</p>
+
+              <a href="https://eugeneboyah.github.io/dom-manipulation/">READ MORE</a>
+		</div>
+
+		<div class="card">
+			<div class="card-image car-5"></div>
+
+			<h2> Layout And FlexBox </h2>
+
+			<p>	This is a CSS assignment that gives the summary of both Layout and FlexBox</p>
+
+              <a href="https://eugeneboyah.github.io/layout/">READ MORE</a>
+		</div>
+
+
+
+
+	</section>
+
+	<footer class="footer1">
+    <p>&copy; you can connect with me through social media</p>
+  </footer>
+
+
+
+</body>
+</html>
