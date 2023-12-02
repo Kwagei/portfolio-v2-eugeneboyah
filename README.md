@@ -1,1 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/v3FQrL9O)
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/pAzRPsJ1)
+# portfolio-v2
+KIT-Cohort-III CSS Portfolio Project
+
+This is a CSS-based project for week-I of your CSS course. It is intended to build up and reinforce your CSS skills. You wouldn't need Javascript for most of the work you will be doing, but feel free to implement Javascript if the need arises.
+<br><br>
+You are required to follow the mockups provided in the ```mockups``` folder located in the root directory of this project. 
+<br>
+The due date for this project is December 3, 2023, at 3pm. 
+<br>
+
+<br>
+
+**Grading Rubric:**
+
+|Criteria|Points|
+|---|---|
+|Responsiveness|20|
+|Completeness|60|
+|UI Design|20|
+<br>
+
+
+
+**Best wishes and happy coding!**

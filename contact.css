@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EEECEB;
+    /* margin: 0; */
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+   
+    padding: 0;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav li:hover {
+    text-decoration: underline;
+}
+
+
+/* .hero_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    align-items: top;
+    padding: 40px;
+   
+}
+
+.hero_wrapper {
+    display: inline-flex;
+} */
+
+/* .hero_wrapper > div {
+    max-width: 600px;
+} */
+
+.statistics {
+    display: flex;
+    /* justify-content: space-between; */
+    grid-row-gap: 20px; /* Adjust the gap between rows */
+    margin-bottom: 60px;
+
+}
+.hero_wrapper{
+    /* width: 600px;
+    /* height: 500px; */
+    background-color: #EEEBE5;
+    padding: 70px; 
+
+}
+
+
+/* .statistic {
+    background-color: #fff;
+    padding: 20px;
+    text-align: left;
+    
+} */
+.statistics-heading{
+    width: 90rem;
+    height: 300px;
+    background-color: #FCFAFF;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 12px;
+    /* justify-content: center; */
+}
+/* .statistics-heading i, h1, p{
+    margin-left: auto;
+    margin-right: auto;
+} */
+.statistics-icon{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 35px;
+    background-color: #9A66FF;
+    border-radius: 6px;
+    padding: 8px;
+    color: #FCFAFF;
+    /* margin-bottom: 30px; */
+
+}
+.statistics-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+}
+.statistic{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #EEECEB;
+    padding: 10px;
+}
+.statistic i{
+    color: #9A66FF;
+    font-size: 20px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* height: 600px;
+    width: 100%;
+    gap: 30px;
+    background-color: aqua; */
+    /* background-color: rgb(243, 22, 22); */
+}
+.user-information{
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    width: 30rem;
+    padding: 20px;
+
+}
+.user-input{
+    display: flex;
+    flex-direction: column; 
+    background-color: #FCFAFF;
+    height: 600px;
+    width: 50rem;
+    padding: 60px;
+}
+.checkbox-input{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEBE5;
+    border-radius: 10px;
+    height: 160px;
+    padding: 20px;
+    gap: 20px;
+
+}
+.web-collabo{
+    display: flex;
+   gap: 200px;
+}
+.mobile-other{
+    display: flex;
+   gap: 150px;
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.one{
+    /* background-color: chocolate; */
+    width: 450px;
+    height: 400px;
+}
+.one i{
+    /* border-bottom: 1px solid #EEEBE5; */
+    /* border: 1px solid #EEECEB; */
+
+    padding: 5px;
+}
+.two{
+    background-color: #FCFAFF;
+    padding: 40px;
+    width: 65%;
+    height: 600px;
+
+}
+.names input,
+.names1 input{
+    width: 400px;
+    background-color: #EEEBE5;
+    border: none;
+    border-radius: 8px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.two input{
+    padding: 15px;
+    
+}
+.names,
+.names1{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+}
+.input-1,
+.input-2{
+    width: 700px;
+    
+}
+.check-box-1,
+.check-box-2{
+    width: auto;
+    background-color: #9A66FF;
+}
+textarea{
+    padding: 20px;
+    border: none;
+    background-color: #EEEBE5;
+    border-radius: 8px;
+
+}
+.send-btn{
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    background-color: #9A66FF;
+    border: none;
+
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email,
+.number, 
+.location{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCFAFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.social{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    gap: 20px;
+}
+.social a{
+    text-decoration: none;
+}
+.profile-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #FCFAFF;
+    padding: 20px;
+    margin-top: 10px;
+    width: 230px;
+    border-radius: 6px;
+}
+.linkin1,
+.twitter1,
+.web1{
+    background-color: #9A66FF;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 30px;
+    border: none;
+    color: #ffff;
+
+}
+.FnQ{
+    background-color: coral;
+    height: 700px;
+    margin-top: 50px;
+    text-align: center;
+}
+.FnQ-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.FnQ h1{
+    padding: 5px;
+}
+.FnQ p{
+    padding: 5px;
+    margin-bottom: 40px;
+
+}
+.FnQ-left-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: aqua;
+    border: 20px solid #FCFAFF;
+    /* background-color: #FCFAFF; */
+    /* padding: 50px; */
+    width: 65%;
+    height: 500px;
+}
+.FnQ-right-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: crimson;
+    width: 450px;
+    height: 400px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.nav i{
+    color: #FCFAFF;
+    font-size: 20px;
+}
+.linkin,
+.twitter,
+.web{
+    background-color: #9A66FF;
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.about-eugene{
+    width: 50rem;
+    border: 1px solid #808080;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.email,
+.phone,
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+footer{
+    margin-top: 40px;
+}
+footer p{
+    text-align: center;
+}
