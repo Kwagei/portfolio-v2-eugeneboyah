@@ -40,25 +40,7 @@ body {
 
 .nav li:hover {
     text-decoration: underline;
-}
-
-
-/* .hero_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    align-items: top;
-    padding: 40px;
-   
-}
-
-.hero_wrapper {
-    display: inline-flex;
-} */
-
-/* .hero_wrapper > div {
-    max-width: 600px;
-} */
+} 
 
 .statistics {
     display: flex;
@@ -71,17 +53,9 @@ body {
     /* width: 600px;
     /* height: 500px; */
     background-color: #EEEBE5;
-    padding: 70px; 
+    padding: 60px; 
 
 }
-
-
-/* .statistic {
-    background-color: #fff;
-    padding: 20px;
-    text-align: left;
-    
-} */
 .statistics-heading{
     width: 90rem;
     height: 300px;
@@ -263,7 +237,7 @@ textarea{
 .location{
     display: flex;
     justify-content: space-between;
-    background-color: #FCFAFF;
+    /* background-color: #FCFAFF; */
     padding: 20px;
     border-radius: 10px;
 }
@@ -273,7 +247,12 @@ textarea{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 30px;
-    margin-top: 50px;
+    margin-top: 70px;
+    border-top: 1px solid #d1cfca;
+    padding-top: 40px;
+}
+.about-me h3{
+    color: #9A66FF;
 }
 .social{
     display: flex;
@@ -306,10 +285,11 @@ textarea{
 
 }
 .FnQ{
-    background-color: coral;
+    /* background-color: coral; */
     height: 700px;
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 100px;
 }
 .FnQ-section{
     display: flex;
@@ -327,25 +307,97 @@ textarea{
 .FnQ-left-section{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border: 20px solid #FCFAFF;
     /* background-color: #FCFAFF; */
-    /* padding: 50px; */
+    /* padding: 10px; */
     width: 65%;
-    height: 500px;
+    height: 600px;
+}
+.FnQ-left-section i{
+    border: 1px solid #d1cfca;
+    color: aqua;
+    color: black;
+    padding: 8px;
+    font-size: 25px;
 }
 .FnQ-right-section{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: crimson;
+    /* background-color: crimson; */
     width: 450px;
     height: 400px;
 }
+.q1{
+    display: flex;
+    border-bottom: 20px solid #FCFAFF;
+    justify-content: space-between;
+    padding: 10px;
+    height: 130px;
+
+}
+
+.q1 h3{
+    text-align: left;
+    
+}
+.q1 > h3 p{
+    text-align: left;
+}
+.q2, .q3, .q4{
+    display: flex;
+    border-bottom: 20px solid #FCFAFF;
+    padding: 15px;
+    justify-content: space-between;
+}
+.q5{
+    display: flex;
+    padding: 17px;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFAFF;
+    padding: 20px;
+    text-align: left;
+    /* gap: 15px; */
+
+}
+.grid p{
+    margin-top: 20px;
+}
+.stars-icon{
+    display: flex;
+    justify-content: center;
+    background-color: #9A66FF;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 20px;
+}
+.stars-icon i{
+    color: white;
+    font-size: 30px;
+}
+.grid-btn{
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #9A66FF;
+    color: #FCFAFF;
+    font-size: 15px;
+    border: none;
+}
+.grid-btn
 .nav{
     display: flex;
-    flex-direction: row;  
+    flex-direction: row; 
     justify-content: space-between;
     gap: 15px;
 
@@ -372,6 +424,42 @@ textarea{
     margin-left: auto;
     margin-right: auto;
 }
+.social a{
+    color: black;
+}
+.email1,
+.phone1, 
+.location1{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #FCFAFF; */
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.profiles-icon1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #FCFAFF;
+    padding: 20px;
+    margin-top: 10px;
+    /* width: 230px; */
+    border-radius: 6px;
+}
+#Copyright{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.ri-copyright-fill{
+    color: #FCFAFF;
+}
+/* .about-eugene > .phone{
+    margin-top: 20px;
+} */
 .email,
 .phone,
 .location{
