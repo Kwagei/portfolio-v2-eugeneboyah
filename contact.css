@@ -7,41 +7,36 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Manrope';
     background-color: #EEECEB;
     /* margin: 0; */
 }
-
-.nav_wrapper {
+.nav_wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 70px 10px 70px;
 }
-
-.nav {
-    list-style: none;
+.nav_wrapper h3{
+    color: #9A66FF;
+    color: black;
+}
+.nav-links{
     display: flex;
-   
-    padding: 0;
 }
-
-.nav li {
-    margin-right: 20px;
-}
-
-.nav li:last-child {
-    margin-right: 0;
-}
-
-.nav li a {
+.nav-links a{
     text-decoration: none;
-    color: blue;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+
 }
-
-.nav li:hover {
-    text-decoration: underline;
-} 
-
+.nav-links button{
+    padding: 8px;
+    background-color: #9A66FF;
+    color: #FCFAFF;
+    border-radius: 7px;
+    border: none;
+}
 .statistics {
     display: flex;
     /* justify-content: space-between; */
